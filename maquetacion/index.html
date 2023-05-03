@@ -1,40 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xacademy Clase 1 maquetacion</title>
-    <style>
-        body {
-            margin: 0;
-        }
-        p {
-            margin-right: 40px;
-        }
-        h1 {
-            margin: 0px 400px;
-            text-align: center;
-        }
-        button.redondo {
-            background-color: white;
-            border: 1px solid black;
-            border-radius: 25px;
-            padding: 0px 20px;
-            height: 32px;
-        }
-        div#introduction-actions {
-            display: flex;
-            justify-content: center;
-        }
-    </style>
+    <link rel="stylesheet" href="/SantexAcademy/maquetacion/styles.css">
 </head>
+
 <body>
-    <div id="header" style="border-bottom: 1px solid gray; display: flex; padding: 10px 100px; justify-content: space-between">
+    <div id="header">
         <div id="header-left">
-            <img src="logo.svg">
+            <img src="img/logo.svg">
         </div>
-        <div id="header-right" style="display: flex; align-items: center;">
+        <div id="header-right">
             <p>Nosotros</p>
             <p>Programas</p>
             <p>Capaciontaciones</p>
@@ -43,14 +23,157 @@
             <button class="redondo">Sumate +</button>
         </div>
     </div>
-    <div id="introduction" style="padding: 48px;">
+
+    <div id="introduction">
         <div id="introduction-text">
-            <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
+            <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la
+                tecnología.</h1>
         </div>
         <div id="introduction-actions" style="margin-top: 25px;">
             <button class="redondo">Contactanos -></button>
             <button class="redondo" style="margin-left: 14px;">Sumate +</button>
         </div>
     </div>
+
+    <div id="container1">
+        <div class="box1">
+            <div>
+                <p id="impacto">. Impacto</p>
+            </div>
+            <p>
+                Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad.
+                Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.
+            </p>
+        </div>
+        <div class="box1">
+            <div class="box2">
+                <div class="number">58</div>
+                <div class="subtitle">Localidades</div>
+            </div>
+            <div class="box2">
+                <div class="number">+50</div>
+                <div class="subtitle">Mentores</div>
+            </div>
+            <div class="box2">
+                <div class="number">301</div>
+                <div class="subtitle">Participantes</div>
+            </div>
+
+        </div>
+    </div>
+    <div id="programas">
+        <div class="boxDescription">
+            <div class="subtitulo">. Programas</div>
+            <img class="imgIzq" src="img/xacademy-01-600x400.jpg"/>
+        </div>
+        <div class="boxDescription">
+            <img id="xacademyLogo" src="img/xacademy.svg"/>
+            <div class="parrafoIzq">xAcademy es un programa de formación en tecnología llevado adelante por la Fundación
+                Tecnología con Propósito junto a Santex que busca promover un cambio positivo en la comunidad a través
+                de la educación en IT, apuntando a lograr la inserción laboral de personas en el mundo tecnológico.
+            </div>
+            <button class="redondo borde">Más Info -></button>
+        </div>
+    </div>
+    <div>
+        <div class="boxDescription">
+            <div class="subtitulo">Robótica educativa: la tecnología del futuro</div>
+            <div class="parrafoDer">Durante el curso, los alumnos y alumnas a través de la robótica desarrollan la
+                curiosidad, el autodidactismo y las habilidades blandas necesarias para afrontar la revolución
+                tecnológica del siglo XXI.</div>
+            <button class="redondo borde">Más Info -></button>
+        </div>
+        <div class="boxDescription">
+            <img class="imgDer" src="img/robotica-educativa-07-600x400.jpg" />
+        </div>
+    </div>
+    <div>
+        <div class="boxDescription">
+            <div class="subtitulo">. Capacitaciones</div>
+            <img class="imgIzq" src="img/estafas-virtuales-04-600x453.jpg" />
+        </div>
+        <div class="boxDescription">
+            <div class="subtitulo">Estafas virtuales: ¿cómo protegernos?</div>
+            <div class="parrafoIzq">Los canales de comunicación a través de medios digitales cobraron gran protagonismo
+                a partir de la pandemia. Al mismo tiempo, se perfeccionan cada vez más rápido las modalidades de estafas
+                y fraudes virtuales. En esta capacitación vas a aprender diferentes tips y consejos útiles para navegar
+                de manera más segura.</div>
+            <button class="redondo borde">Más Info -></button>
+        </div>
+    </div>
+    <div>
+        <div class="boxDescription">
+            <div class="subtitulo">Seguridad informática para infancias</div>
+            <div class="parrafoDer">¿Navegamos seguros en internet? La propuesta es una charla para niños y niñas donde
+                se brindan herramientas de seguridad y autocuidado digital.</div>
+            <button class="redondo borde">Más Info -></button>
+        </div>
+        <div class="boxDescription">
+            <img class="imgDer" src="img/seguridad-informatica-para-infancias-600x398.jpg"/>
+        </div>
+    </div>
+
+    <div id="equipo">
+        <div class="tarjeta">
+            <img class="imgTar" src="img/twp-juan-400x296.png" alt="Juan" />
+            <h3>Juan Santiago</h3>
+            <h4>Presidente</h4>
+            <button class="linkedin">in</button>
+        </div>
+        <div class="tarjeta">
+            <img class="imgTar" src="img/twp-walter-400x296.png" alt="Walter" />
+            <h3>Walter Abrigo</h3>
+            <h4>Secretario</h4>
+            <button class="linkedin">in</button>
+        </div>
+        <div class="tarjeta">
+            <img class="imgTar" src="img/twp-gabriela-400x296.png" alt="Gabriela" />
+            <h3>Gabriela Fernandez</h3>
+            <h4>Tesorera</h4>
+            <button class="linkedin">in</button>
+        </div>
+        <div class="tarjeta">
+            <img class="imgTar" src="img/twp-gabriel-400x296.png" alt="Gabriel" />
+            <h3>Gabriel Dubini</h3>
+            <h4>Tesorero</h4>
+            <button class="linkedin">in</button>
+        </div>
+        <div class="tarjeta">
+            <img class="imgTar" src="img/twp-florencia-400x296.png" alt="Florencia" />
+            <h3>Florencia D’Agostino</h3>
+            <h4>Dirección Ejecutiva</h4>
+            <button class="linkedin">in</button>
+        </div>
+        <div class="tarjeta">
+            <img class="imgTar" src="img/twp-celeste-400x296.png" alt="Celeste" >
+            <h3>Celeste Torresi</h3>
+            <h4>Comisión Directiva</h4>
+            <button class="linkedin">in</button>
+            
+        </div>
+        <div class="tarjeta">
+            <img class="imgTar" src="img/twp-lucia-400x296.png" alt="Lucia" />
+            <h3>Lucia Jaimez</h3>
+            <h4>Directora XAcademy</h4>
+            <button class="linkedin">in</button>
+        </div>
+        <div class="tarjeta">
+        </div>
+    </div>
+
+    <footer>
+        <div class="pie">
+            <div class="detallePie"><img src="img/pie.svg"></div>
+            <div class="detallePie">Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado
+                hacia el sector social.</div>
+            <div class="detallePie">NOSOTROS</div>
+            <div class="detallePie">CONTACTO</div>
+            <div class="detallePie">PROGRAMAS</div>
+            <div class="detallePie">CAPACITACIONES</div>
+            <div class="detallePie">INSTAGRAM</div>
+            <div class="detallePie">LINKEDIN</div>
+        </div>
+    </footer>
 </body>
+
 </html>
